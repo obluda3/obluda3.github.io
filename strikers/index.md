@@ -13,7 +13,7 @@ Special thanks to [Alpha](), [onepiecefreak]() and [Rosetta]() for their help an
 - [Filesystem](#filesystem)
 - [Common file formats](#common-file-formats)
 	- [BLN](#bln)
-	- [Bin Archives] (#bin-archives)
+	- [Bin Archives](#bin-archives)
 - ShadeLZ Compression
 - Editing the game's archives
 - Players
@@ -121,4 +121,4 @@ Offset = (OffSize >> ShiftFactor) * PadFactor
 Size = (OffSize & Mask) * Mul Factor
 ```
 
-Each file is compressed using [ShadeLZ], and its header-less variant for those in **dat.bin**
+Each file is compressed using [ShadeLZ](), and its header-less variant for those in **dat.bin**
