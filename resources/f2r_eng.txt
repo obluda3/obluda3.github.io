@@ -1,0 +1,190 @@
+﻿Street Football / Foot 2 Rue (Wii) English Script
+f2r_01_intro:
+
+-tag: It's quiet in Port Marie today, don't you think? 
+-jeremy: Too quiet, Tag. I can't wait any longer. I want action! 
+-jeremy: The federation should have already published the list of qualified teams! 
+-tag: Have a bit of patience, Jeremy! We've never seen you as excited as you've been the last few days. 
+-tag: In fact, ever since organisation of the street football world championships was announced! 
+-jeremy: Ok, that makes sense now! You're the captain Tag, it's normal for you to stay calm. 
+-jeremy: Me, on the other hand, I have the soul of an attacker! And itchy feet! 
+-tag: You would do better to save your energy for our upcoming matches. 
+-jeremy: Do you remember when we played the Apaches? We were three all. Brains dribbled... 
+-jeremy: ...he passed the ball to me... I moved in front of the goalkeeper and... GOAL! 
+-pradet: Oh look, the weenies! I've been looking for you. Get in the car, I've been told to take you to the Riffler Institute. 
+-tag: It's bound to be for something important. Let's go! 
+-tag: Samira, Brains, Eloise, there you are! 
+-fede: We were expecting more than just you, Tag and Jeremy. 
+-fede: I asked you here because I have some important news to tell you... 
+-fede: The list of teams is ready at last, but... 
+-fede: ...you still have one match to win to qualify. 
+-fede: You'll be playing the Black Devils team. 
+-tag: The Black Devils? Never heard of them... does anyone know? 
+-tag: What about you, Fédé? 
+-fede: I don't know any more about it than you, to my knowledge no one has seen them play yet. 
+-fede: Besides they registered barely a week ago. 
+-tag: By the way, when was the match scheduled for? 
+-fede: It will be tonight. 
+-equipe: Tonight? 
+-jeremy: That's a joke right?! Why not the day before yesterday when we were there? 
+-fede: Sorry, that was the only date they could do. 
+-tag: Come on Rifflers... ready for a challenge? 
+-equipe: Yeahhh! 
+-tag: Right, training everyone! 
+-tag: Is everyone sitting down? Good, let's begin. 
+-estelle: Hey Rifflers! Are you ready for tonight? 
+-tag: Estelle! 
+-estelle: I heard about the match. I wondered if I come and train you? 
+-tag: Your help is appreciated... really nice! 
+-estelle: I owe you that much, it was you who taught me all about team spirit! 
+-jeremy: That's fantastic, you are the best female player of all time! 
+-estelle: You exaggerate... but you're not bad either, huh? 
+-jeremy: Wow! It's not every day I get to train with such a pretty girl! 
+-samira: Come again? 
+-jeremy: Ahem... except when I train with you, Samira! 
+-estelle: Ok, does that mean you need to practice some passes with me? 
+
+f2r_02_intro:
+
+-jeremy: Phew! That was tiring! And to think the match hasn't even started yet... 
+-jeremy: Right friends, I suggest a break! 
+-stephane: How long till the match? 
+-tag: Stephen! You came all the way from your city just for us! 
+-stephane: You must know the street football values, right? Sharing, friendship, solidarity! 
+-stephane: Of course I'll support you. All the more so since I'm your number one fan! 
+-stephane: Eloise, what do you think about a few shots? 
+-eloise: Great idea, Stephen, you're a star! You'll see just what I can do... 
+-tag: I'll shoot! 
+-victoire: Hi friends. I hope I'm not disturbing anyone? 
+-jeremy: Pfff... At Riffler, you even disturb the sparrows! 
+-tag: Victoria! What are you doing here? 
+-victoire: I wanted to see what your game was like... 
+-victoire: We have every chance of being knocked out tonight. 
+-victoire: With me on your team, you would be invincible! 
+-jeremy: We don't need you here. Besides, you said it yourself, you're not part of the team! 
+-jeremy: ...Because you have proved to us that when you play, it's not just about you. 
+-tag: Right, excuse us Victoria, our training won't wait... 
+
+f2r_03_intro:
+
+-jeremy: Wow, we are on top form! Be very scared Black Devils, for today we'll be knocking you out! 
+-tag: We just have to perfect our strikes now... 
+-eloise: Tag, with me in goal you'll never score. 
+-tag: We'll see about that! 
+
+f2r_04_intro:
+
+-fede: Well, well, Rifflers. Working hard I see! 
+-fede: For your next lot of training, go to the General District. 
+-fede: Someone is waiting there for you. 
+-tag: Who? A pretty admirer? 
+-fede: Maybe! Brains will be delighted... 
+-gabriel: To the General District everyone! Quick! 
+-fatou: Hey to my favourite team! Look who's here! 
+-matt: Hi! I was told I could be of help... 
+-equipe: Matt! 
+-jeremy: How about an autograph Matt? 
+-gabriel: Fa... Fatou, I knew you'd come! 
+-eloise: Brains, close your mouth when faced with Lady Love! And Jeremy, stop behaving like a groupie! 
+-tag: It's a great honour, Matt! 
+-matt: Ah ah! "It's a great honour". 
+-jeremy: So even football stars are coming to admire us now? 
+-fatou: No, no, I wrote to him to ask him to come and give us some advice. 
+-jeremy: Aha... 
+-matt: She showed me some videos of your matches. You could qualify but you need to strengthen your defence... 
+-fatou: I think so too! Brains, want to try getting the ball from me? 
+-gabriel: Who me? Yes, I'd love to! 
+-samira: Do not be distracted by her appearance! 
+
+f2r_05_intro:
+
+-zinguezinho: Ah ah ah ah ah! 
+-tag: Wow, Zangazino! Did you watch us? What did you think of our game? 
+-zinguezinho: Pretty good! But it's missing something... 
+-jeremy: What then... A ball signed by Matt? 
+-matt: Why not? But your attack could do with some improvement still. 
+-tag: How so? 
+-matt: Well... by playing Zanzagino! 
+-zinguezinho: Yes, but which one of you is going to manage to get through my defence? 
+-matt: That sound's like a challenge to me! Who's up for it? 
+-samira: Me! Zangazino, time to teach you a lesson! 
+
+f2r_06:
+
+-fede: I came to see how it went. Matt, what did you think of them? 
+-matt: Promising! They are raring to go, ready to give their all. No? 
+-equipe: Yeahhh! 
+-fede: Guys, time to get going... We have a qualifier to settle. 
+-tag: The Black Devils... Let's do it, team! 
+-fede: Welcome the last qualifier match for the Street Football World Championships! 
+-fede: Thank you, Matt, for joining us today... 
+-matt: I wouldn't have missed it for the world! 
+-fede: Today, the famous Rifflers team... 
+-fede: ... play against the Black Devils. 
+-fede: The two teams are invited to make their way onto the pitch. 
+-equipe: Huh? What? No way! 
+-tag: Victoria? ... Aha, I should have guessed you would be behind all this! 
+-victoire_sport: Let me introduce the amazing Black Devils. I set up the team myself. 
+-tag: But... They're the best street football players in the world!? 
+-victoire_sport: Thanks to my father, I flew them in from all four corners of the globe. 
+-matt: That doesn't seem very fair to me! 
+-victoire_sport: There's nothing against it in the rules... Today will mark the end of the Rifflers' reign! 
+-fede: Ball to the Rifflers. OK, match starts on my whistle. 
+-fede: Get ready! 
+-matt: Good luck, Rifflers... you can beat them! 
+
+f2r_12:
+
+-fede: End of standard time! The Rifflers win the match! 
+-fede: The team qualifies for the Street Football World Championship! 
+-equipe: Yeeeesssss! 
+-jeremy: So, Victoria! At long last your name's not suiting you so well, huh? 
+-victoire_sport: You got lucky, that's all. This won't be the end of the Black Devils! 
+-matt: Don't worry about her. Whatever she does, you have something she will never have... 
+-matt: Have you guessed what I'm talking about Tag? 
+-tag: Yup... the street football spirit! 
+-tag: Sharing, friendship, respect and solidarity. She can't do anything to beat that. 
+-fede: You can say that again! It's the ideal recipe for being the best. 
+-jeremy: Yes, and we... 
+-equipe: ...are the best! 
+
+f2r_13:
+
+-fede: End of standard time! The Black Devils win the match! 
+-fede: The team qualifies for the Street Football World Championship! 
+-victoire_sport: So Rifflers, where were you during the match? We didn't see a lot of you! 
+-matt: Young lady, your behaviour is deplorable! 
+-gabriel: You're nothing but a cheat Victoria! You arranged everything in your favour as usual. 
+-victoire_sport: Look at that. He's so cute when he's angry! 
+-tag: Brains, they won. We have no problem with that. 
+-matt: Spot on Tag. That has no place in street football spirit. 
+-victoire_sport: Street football spirit! Ah ah ah! Thankfully ridicule won't kill you! 
+-samira: What a surprise that you would say that. It's a state of mind you will never have. 
+-tag: That's enough Victoria. Congratulations to you and your team. 
+-victoire_sport: I like that better. 
+-fede: Don't be discouraged kids. 
+-matt: All the best teams go through difficult patches. You know I've seen my fair share of defeats too! 
+-fede: ...it's just as much about accepting our failures as it is winning. 
+-gabriel: Right then... let's pull ourselves together and get back to training from tomorrow! 
+-tag: Yes! The Rifflers are far from done yet! 
+
+f2r_14:
+
+-fede: End of standard time! 
+-fede: It's a draw, restart the match! 
+
+f2r_22:
+
+-fede: End of standard time! The Rifflers win the match! 
+-fede: The team qualifies for the Street Football World Championship! 
+-equipe: Yeeeesssss! 
+
+f2r_23:
+
+-fede: End of standard time! The Black Devils win the match! 
+-fede: The team qualifies for the Street Football World Championship! 
+
+f2r_24:
+
+-fede: End of standard time! 
+-fede: It's a draw, restart the match! 

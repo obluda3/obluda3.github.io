@@ -1,0 +1,191 @@
+﻿Street Football / Foot 2 Rue (Wii) Italian Script - Obluda
+
+f2r_01_intro:
+
+-tag: Banessa è molto tranquilla oggi, non trovi? 
+-jeremy: Troppo tranquilla, Lucifero. Non ne posso più di aspettare. Ho voglia d'azione! 
+-jeremy: La Federazione deve aver già pubblicato l'elenco delle squadre qualificate! 
+-tag: Jeremy, stai tranquillo. In questi giorni sei particolarmente agitato. 
+-tag: È così da quando abbiamo annunciato l'organizzazione del Campionato del Mondo di pallastrada. 
+-jeremy: Beh, certo, è logico! Tu sei il capitano, Lucifero, è normale che tu mantenga il sangue freddo. 
+-jeremy: Io, invece, ho il temperamento di un attaccante! E i piedi mi prudono! 
+-tag: Faresti meglio a risparmiare le tue energie per le prossime partite. 
+-jeremy: Ti ricordi la partita contro gli Apache? Ci spostavamo tre alla volta, dappertutto. Memorino dribbla... 
+-jeremy: ...mi passa la palla..sono solo davanti al portiere...GOL! 
+-pradet: Ragazzi! Vi stavo cercando. Entrate in macchina, mi hanno chiesto di accompagnarvi all'Istituto. 
+-tag: Dev'essere qualcosa di importante. Andiamo! 
+-tag: Samira, Memorino, Celeste, ci siete tutti! 
+-fede: Lucifero e Jeremy, aspettavamo solo voi. 
+-fede: Vi ho chiamato per darvi una notizia importante... 
+-fede: La lista delle squadre è pronta, ma... 
+-fede: ...per qualificarvi dovete vincere una partita. 
+-fede: Affronterete la squadra dei Diavoli rossi. 
+-tag: I Diavoli rossi? Mai sentiti nominare... qualcuno li conosce? 
+-tag: E tu, Fede? 
+-fede: Ne so quanto voi... a quanto pare, nessuno li ha mai visti giocare. 
+-fede: Tra l'altro si sono iscritti solo una settimana fa. 
+-tag: A proposito, in che data si svolgerà la partita? 
+-fede: Ci stavo arrivando. In effetti, si svolgerà stasera. 
+-equipe: Stasera? 
+-jeremy: È uno scherzo?! Perché non due giorni fa, già che ci siamo? 
+-fede: Mi spiace, era l'unica data possibile per loro. 
+-tag: Forza, Celestini... pronti per la sfida? 
+-equipe: Sììì! 
+-tag: Forza, andiamo ad allenarci! 
+-tag: Tutti pronti? Perfetto, allora possiamo cominciare. 
+-estelle: Ciao, Celestini! Siete pronti per stasera? 
+-tag: Stella! 
+-estelle: Ho saputo della partita. Mi sono detta che forse avrei potuto aiutarvi. 
+-tag: Il tuo aiuto è molto gradito. Sei davvero simpatica! 
+-estelle: Ve lo devo, siete voi che mi avete insegnato lo spirito di squadra. 
+-jeremy: È fantastico! Sei la migliore giocatrice di tutti i tempi! 
+-estelle: Non esagerare... Comunque anche tu non scherzi, sai? 
+-jeremy: Wow! Non è da tutti i giorni allenarsi con una ragazza così carina! 
+-samira: Come? 
+-jeremy: Ehm... tranne quando mi alleno con te, Samira! 
+-estelle: Ehi, ti andrebbe di allenarti ai passaggi con me? 
+
+f2r_02_intro:
+
+-jeremy: Fiuuuu! Che stanchezza... e dire che la partita non è ancora iniziata. 
+-jeremy: Ragazzi, io suggerisco una bella pausa! 
+-stephane: A poche ore dalla partita? Stai scherzando, Jeremy? 
+-tag: Stefano! Sei venuto dalla tua città solo per noi! 
+-stephane: Conoscete i valori della pallastrada, vero? Condivisione, amicizia, solidarietà! 
+-stephane: Quindi è normale che vi incoraggi un po'. Tra l'altro sono il vostro tifoso numero uno! 
+-stephane: Celeste, che ne dici di un po' di tiri in porta? 
+-eloise: Ottima idea, Stefano... che carino! Vedrai come sono brava... 
+-tag: Io mi occupo dei tiri! 
+-victoire: Ciao, ragazzi. Spero di non disturbarvi... 
+-jeremy: Pfff... qui all'Istituto disturbi persino i fringuelli... 
+-tag: Veronica! Ma cosa è venuta a fare? 
+-victoire: Volevo vedere come giocate... 
+-victoire: Stasera verrete probabilmente eliminati. 
+-victoire: Con me in squadra, diventereste invincibili. Ma peggio per voi. 
+-jeremy: Non abbiamo bisogno di te. D'altronde, l'hai appena detto, non fai parte della squadra! 
+-jeremy: ...Ci hai dimostrato che, quando giochi, lo fai solo per te stessa. 
+-tag: Scusa, Veronica, ma dobbiamo andare ad allenarci... 
+
+f2r_03_intro:
+
+-jeremy: Wow, che grinta ragazzi! Tremate, Diavoli rossi, oggi vi elimineremo! 
+-tag: Dobbiamo solo perfezionare i tiri... 
+-eloise: Lucifero, con me in porta, non riuscirai a fare gol. 
+-tag: Lo vedremo! 
+
+f2r_04_intro:
+
+-fede: Ehi, Celestini, vedo che vi state impegnando! 
+-fede: Andate a continuare l'allenamento al quartier generale. 
+-fede: C'è qualcuno che vi aspetta. 
+-tag: E chi è? Una bella ammiratrice? 
+-fede: Chissà... Memorino sarà contentissimo... 
+-gabriel: Tutti al quartier generale! Forza! 
+-fatou: Ehi, ecco la mia squadra preferita! Guardate chi vi ho portato! 
+-matt: Ciao! Mi hanno detto che potevo esservi di aiuto... 
+-equipe: Matt! 
+-jeremy: Un autografo, Matt? 
+-gabriel: Fa... Fathou, sapevo che saresti venuta! 
+-eloise: Memorino, chiudi la bocca quando guardi la tua amata! E tu, Jeremy, non fare il groupie! 
+-tag: È un grande onore, Matt! 
+-matt: Ah ah ah! “Un grande onore” ! 
+-jeremy: Persino le stelle del calcio vengono ad ammirarci? 
+-fatou: Ma cosa dici... gli ho chiesto io di venire per darvi dei consigli. 
+-jeremy: Ah... 
+-matt: Mi hanno fatto vedere dei video delle vostre partite. Potete qualificarvi ma dovete migliorare la difesa. 
+-fatou: Sono d'accordo. Memorino, prova a rubarmi la palla. 
+-gabriel: Io? Ah, sì, va bene! 
+-samira: Non lasciarti distrarre dal suo sguardo! 
+
+f2r_05_intro:
+
+-zinguezinho: Ah ah ah ah ah! 
+-tag: Guarda chi c'è, Zanguezinho! Ci stavi spiando? Cosa pensi del nostro gioco? 
+-zinguezinho: Niente male! Però manca l'elemento essenziale... 
+-jeremy: Cioè? Un pallone con la dedica di Matt? 
+-matt: Perché no? Ma il vostro attacco può migliorare. 
+-tag: E come? 
+-matt: Beh... sfidando Zanguezinho! 
+-zinguezinho: Ok, ma credete che uno di voi riuscirà a superare la mia difesa? 
+-matt: Mi sembra una sfida! Chi la vuole accettare? 
+-samira: Io! Zanguezinho, ti meriti una bella lezione! 
+
+f2r_06:
+
+-fede: Sono venuto a vedere come andavano le cose. Matt, che ne dici? 
+-matt: Promettono bene. Sono su di giri, pronti a dare tutto in campo, vero? 
+-equipe: Sììì! 
+-fede: Ragazzi, il tempo passa... c'è una partita di qualificazione da giocare. 
+-tag: Diavoli rossi, stiamo arrivando! 
+-fede: Benvenuti all'ultima partita di qualificazione al Campionato del Mondo di pallastrada. 
+-fede: Ringraziamo Matt per la sua presenza qui tra noi. 
+-matt: Non mi sarei perso questa partita per nulla al mondo! 
+-fede: Oggi, la famosa squadra dei Celestini... 
+-fede: ... affronterà i Diavoli rossi. 
+-fede: Le due squadre sono invitate a entrare in campo. 
+-equipe: Come? Che? Non ci credo! 
+-tag: Veronica? ... Avrei dovuto immaginare che ci fossi tu dietro tutto questo! 
+-victoire_sport: Vi presento i fantastici Diavoli rossi. Sono stata io a formare la squadra. 
+-tag: Ma... questi sono i migliori giocatori di pallastrada del mondo?! 
+-victoire_sport: Grazie a mio padre, li ho fatti arrivare in aereo da ogni angolo del pianeta. 
+-matt: Non mi sembra molto corretto! 
+-victoire_sport: E non è contro il regolamento. Questa partita segnerà la fine del regno dei Celestini! 
+-fede: Palla ai Celestini. Attenzione, al mio fischio inizia la partita. 
+-fede: Tenetevi pronti! 
+-matt: Forza, Celestini... potete vincere! 
+
+f2r_12:
+
+-fede: Fine del tempo regolamentare! I Celestini hanno vinto la partita! 
+-fede: La squadra si qualifica per il Campionato del Mondo di pallastrada! 
+-equipe: Sììììììììì! 
+-jeremy: Ehi, Veronica! Alla fine non ti è andata molto bene, eh? Mmmm? 
+-victoire_sport: Non fare il furbo. Ci rivedremo! 
+-matt: Non fatele caso. Qualunque cosa faccia, avete qualcosa che lei non avrà mai... 
+-matt: Sai cosa sto per dire, Lucifero? 
+-tag: Sì... lo spirito della pallastrada! 
+-tag: Condivisione, amicizia, rispetto e solidarietà. Non può nulla contro questi ideali. 
+-fede: Certo! È la ricetta ideale per diventare i migliori. 
+-jeremy: Sì, e i migliori... 
+-equipe: ...Siamo noi! 
+
+f2r_13:
+
+-fede: Fine del tempo regolamentare! I Diavoli rossi hanno vinto la partita! 
+-fede: La squadra si qualifica per il Campionato del Mondo di pallastrada! 
+-victoire_sport: Ehi, Celestini, dov'eravate durante la partita? Non mi sembra di avervi visto in campo. 
+-matt: Ragazzina, il tuo comportamento è inaccettabile! 
+-gabriel: Sei solo un'imbrogliona, Veronica! Hai organizzato tutto a tuo vantaggio, come al solito. 
+-victoire_sport: Guardate com'è carino quando si arrabbia! 
+-tag: Memorino, hanno vinto. Non possiamo metterlo in discussione. 
+-matt: Esatto, Lucifero. Sarebbe contrario allo spirito della pallastrada. 
+-victoire_sport: Lo spirito della pallastrada! Ah ah ah! Che patetici! 
+-samira: Non mi stupisce che tu dica certe cose. Sono valori che non avrai mai. 
+-tag: Ok, Veronica. Complimenti a te e alla tua squadra. 
+-victoire_sport: Così va meglio. 
+-fede: Non perdetevi d'animo, ragazzi. 
+-matt: Anche le squadre più forti attraversano momenti difficili. Sapeste quante sconfitte ho dovuto digerire! 
+-fede: ... bisogna imparare ad accettare le sconfitte per raggiungere la vittoria. 
+-gabriel: Certo... rimettiamoci in sesto e ricominciamo gli allenamenti a partire da domani! 
+-tag: Sì! I Celestini hanno ancora molto da dire! 
+
+f2r_14:
+
+-fede: Fine del tempo regolamentare! 
+-fede: Avete pareggiato, dovete ricominciare la partita! 
+
+f2r_22:
+
+-fede: Fine del tempo regolamentare! I Celestini hanno vinto la partita! 
+-fede: La squadra si qualifica per il Campionato del Mondo di pallastrada! 
+-equipe: Sììììììììì! 
+
+f2r_23:
+
+-fede: Fine del tempo regolamentare! I Diavoli rossi hanno vinto la partita! 
+-fede: La squadra si qualifica per il Campionato del Mondo di pallastrada! 
+
+f2r_24:
+
+-fede: Fine del tempo regolamentare! 
+-fede: Avete pareggiato, dovete ricominciare la partita! 

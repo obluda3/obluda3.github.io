@@ -21,7 +21,7 @@ Over the past two years I've spent a lot of time **reverse engineering** Striker
 
 ## Inazuma Eleven GO Strikers 2013 Xtreme
 
-![Screenshot of Xtreme13's titlescreen](/images/xtreme_titlescreen.png)
+![Screenshot of Xtreme13's titlescreen](/resources/xtreme_titlescreen.png)
 
 [Inazuma Eleven GO Strikers 2013 Xtreme](https://www.xtreme13.com/) is a mod aiming to complete the original game by restoring its unused content in addition to some extra features. 
 
@@ -31,9 +31,17 @@ These *extra features* were the results of the reverse engineering work I've don
 
 It uses [Kamek](https://github.com/Treeki/Kamek) by [Ninji](https://twitter.com/_ninji) to inject custom code into the game.
 
+## Inazuma Eleven GO Strikers 2013 French Patch
+
+![Screenshot of a translated menu in Strikers 2013](/resources/strikersfr.png)
+
+I was one of the contributors behind the [french translation](http://copaproject.fr/) of Strikers 2013. My job was to help with some text translation and graphics assets, but mostly to make tools to help modifying the game, with the help of a few others. We started the project back in **Summer 2020** when [Rosetta](https://twitter.com/rosetta_galaxy) managed to extract the game's files, but we were later joined by [AS](https://twitter.com/sltcas) who quickly became the lead of the project, and [Nayth](https://twitter.com/637nayth). 
+
+This has been my first ever completed big scale project, and we released it in **January 2023**.
+
 ## Inazuma Eleven GO Strikers 2013 modding tools
 
-I've made multiple tools for some reason, when I could've just made an *all-in-one*. Actually there's a reason but we'll save that story for another time...
+I've made multiple tools to mod the game when I could've just made an *all-in-one*. Actually there's a reason but we'll save that story for another time...
 
 ### Strikers2013Editor
 
@@ -45,13 +53,13 @@ I've made multiple tools for some reason, when I could've just made an *all-in-o
 
 ### Strikers2013-Tools
 
-[Strikers2013-Tools](https://github.com/obluda3/strikers2013-tools) is a program I initialy made for the french fan-translation project of the game. I made it in order to *import* files into the games' archives, back when available tools like [Kuriimu2]() didn't support them. I also added support for the game's text format, and later re-implemented the game's [compression algorithm]().
+[Strikers2013-Tools](https://github.com/obluda3/strikers2013-tools) is a program I initialy made for the french fan-translation project of the game. I made it in order to *import* files into the games' archives, back when available tools like [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) didn't support them. I also added support for the game's text format, and later re-implemented the game's [compression algorithm]().
 
 ## Street Football
 
 Street Football is a video game based on the TV Show *Foot 2 Rue*. I worked a little bit on the game, for shitposting purposes...
 
-[Here](/f2r.md)'s a documentation of the game's file formats. And [Here](/f2r_script.txt) you'll get a full dump of the game's script.
+[Here](/f2r.md)'s a documentation of the game's file formats. A full dump of the game's script is available in [English](/resources/f2r_eng.txt), [French](/resources/f2r_fr.txt) or [Italian](/resources/f2r_it.txt).
 
 ## Croaarc
 

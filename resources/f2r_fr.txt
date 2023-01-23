@@ -1,0 +1,191 @@
+﻿Street Football / Foot 2 Rue (Wii) French Script
+
+f2r_01_intro:
+
+-tag: C'est calme à Port-Marie aujourd'hui... tu ne trouves pas ? 
+-jeremy: Trop calme, Tag. J'en peux plus d'attendre. Je veux de l'action ! 
+-jeremy: La fédération devrait avoir déjà publié la liste des équipes qualifiées ! 
+-tag: Jérémy, sois un peu patient ! On ne t'avait jamais vu aussi excité, ces derniers jours. 
+-tag: En fait, depuis qu'on a annoncé l'organisation du championnat du monde de foot de rue ! 
+-jeremy: Bin oui, logique ! Toi Tag, t'es le capitaine, c'est normal que tu gardes ton sang-froid. 
+-jeremy: Moi par contre, j'ai l'âme d'un attaquant ! Et les pieds me démangent ! 
+-tag: Tu ferais mieux de conserver ton énergie pour les matchs qui nous attendent. 
+-jeremy: Tu te souviens de la rencontre contre les Apaches ? On était à trois partout. Gabriel dribble... 
+-jeremy: ...il me passe la balle... moi je me place devant le gardien, et... BUT ! 
+-pradet: Ah les petiots ! Je vous cherchais. Montez dans la voiture, on m'a chargé de vous emmener a l'institut Riffler. 
+-tag: C'est sûrement pour quelque chose d'important. En route ! 
+-tag: Samira, Gab, Eloise, vous êtes là ! 
+-fede: On attendait plus que vous, Tag et Jérémy. 
+-fede: Je vous ai réuni car j'ai une nouvelle importante à vous annoncer... 
+-fede: La liste des équipes est enfin prête, mais... 
+-fede: ...vous avez encore un match à remporter pour vous qualifier. 
+-fede: Vous allez affronter l'équipe des Diables Noirs. 
+-tag: Les Diables Noirs ? Jamais entendu parler... quelqu'un connaît ? 
+-tag: Et toi Fédé ? 
+-fede: Je n'en sais pas plus que vous, à ma connaissance personne ne les a encore vu jouer. 
+-fede: En plus, ils se sont inscrits il y a à peine une semaine. 
+-tag: A propos, le match est prévu pour quelle date ? 
+-fede: J'allais y venir. En fait, il aura lieu ce soir. 
+-equipe: Ce soir ? 
+-jeremy: C'est une blague ?! Pourquoi pas avant-hier, tant qu'on y est ? 
+-fede: Désolé, c'était la seule date possible pour eux. 
+-tag: Allez les Bleus... Prêts à relever le challenge ? 
+-equipe: Ouais ! 
+-tag: Alors, tous à l'entraînement ! 
+-tag: Tout le monde est placé ? Bien, on va pouvoir commencer. 
+-estelle: Salut les Bleus ! Vous êtes chauds pour ce soir ? 
+-tag: Estelle ! 
+-eloise: J'ai appris pour le match. Je me suis dis que je pourrais vous entraîner ? 
+-tag: Ton aide est la bienvenue... c'est sympa ! 
+-estelle: Je vous dois bien ça, c'est vous qui m'avez appris l'esprit d'équipe ! 
+-jeremy: C'est top, t'es la meilleure joueuse de tous les temps ! 
+-estelle: T'exagères... Mais tu n'es pas mal non plus, tu sais ? 
+-jeremy: Waouh ! C'est pas tous les jours que je peux m'entraîner avec une aussi jolie fille ! 
+-samira: Pardon ? 
+-jeremy: Heu... hormis quand je m'entraîne avec toi Samira ! 
+-estelle: Bon, ça te dit de t'entraîner aux passes avec moi ? 
+
+f2r_02_intro:
+
+-jeremy: Pfiouuu ! Fatiguant tout ça ! Quand je pense que le match n'a pas commencé... 
+-jeremy: Moi les amis, je suggère une pause générale ! 
+-stephane: A quelques heures de la confrontation ? Tu plaisantes Jérémy ! 
+-tag: Stéphane ! Tu es venu de ta cité juste pour nous ! 
+-stephane: Vous devez connaître les valeurs du foot de rue, non ? Partage, amitié, solidarité ! 
+-stephane: C'est donc naturel que je vous soutienne. D'autant que je suis votre supporter numéro un ! 
+-stephane: Eloise, que penserais-tu de quelques tirs au but ? 
+-eloise: Super idée Stéphane, t'es un chou ! Tu vas voir ce dont je suis capable... 
+-tag: Je me charge des tirs ! 
+-victoire: Salut les amis. J'espère que je ne dérange personne ? 
+-jeremy: Pfff... A Riffler, tu déranges même les moineaux. 
+-tag: Victoire ! Qu'est-ce que tu es venue faire ici ? 
+-victoire: Je voulais voir à quoi ressemblait votre jeu..... 
+-victoire: Vous avez toutes les chances d'être éliminés ce soir. 
+-victoire: Avec moi dans votre équipe, vous auriez été imbattable. Quel dommage pour vous. 
+-jeremy: On n'a pas besoin de toi ici. D'ailleurs tu viens de le dire, tu ne fais pas partie de l'équipe ! 
+-jeremy: ... Car tu nous as prouvé que lorsque tu joues, ce n'est que pour toi-même. 
+-tag: Bon, tu nous excuseras Victoire, notre entraînement n'attend pas... 
+
+f2r_03_intro:
+
+-jeremy: Waouh, on a une super pêche! Tremblez Diables Noirs, c'est aujourd'hui qu'on vous disqualifie! 
+-tag: Il nous reste à perfectionner nos tirs... 
+-eloise: Tag, avec moi dans les buts, tu n'arriveras pas à marquer. 
+-tag: On va bien voir ça ! 
+
+f2r_04_intro:
+
+-fede: Eh bien les Bleus, ça bosse dur à ce que je vois ! 
+-fede: Pour la suite de votre entraînement, allez au quartier général. 
+-fede: Quelqu'un vous y attend. 
+-tag: Qui ça ? Une jolie admiratrice ? 
+-fede: Peut-être bien ! Gabriel va être ravi... 
+-gabriel: Tous au quartier général ! Vite ! 
+-fatou: Salut mon équipe préférée ! Regardez qui je vous amène ! 
+-anelka: Bonjour ! On m'a dit que je pourrais vous être utile... 
+-equipe: Nicolas Anelka ! 
+-jeremy: Un autographe, m'sieur Anelka ? 
+-gabriel: Fa... Fatou, j'étais sûr que tu allais venir ! 
+-eloise: Gabriel, ferme la bouche quand tu regardes ta dulcinée ! Et toi Jérémy, ne te comporte pas en groupie ! 
+-tag: Monsieur Anelka, c'est un grand honneur ! 
+-anelka: Ah ah ! Pas de 'monsieur', petit. 
+-jeremy: Même les stars du foot viennent nous admirer ? 
+-fatou: Mais non, je lui ai écris pour lui demander de venir vous conseiller. 
+-jeremy: Ah... 
+-anelka: On m'a montré des vidéos de vos matchs. Vous pouvez vous qualifier mais il faut renforcer votre défense... 
+-fatou: Je trouve aussi ! Gabriel, si tu essayais de me prendre la balle ? 
+-gabriel: Moi ? Oh oui, je veux bien ! 
+-samira: Te laisse pas déconcentrer par son regard ! 
+
+f2r_05_intro:
+
+-zinguezinho: Ah ah ah ah ah ! 
+-tag: Ça alors, Zangazino ! Tu nous observais ? Que penses-tu de notre jeu ? 
+-zinguezinho: Plutôt bon ! Mais il manque l'essentiel... 
+-jeremy: Quoi donc... Un ballon dédicacé par Anelka ? 
+-anelka: Pourquoi pas ? Mais votre attaque peut être encore améliorée. 
+-tag: Comment faire ? 
+-anelka: Eh bien... en affrontant Zangazino ! 
+-zinguezinho: Oui, mais l'un d'entre vous arriverait-il vraiment à passer ma défense ? 
+-anelka: Ça m'a l'air d'un défi ! Qui veut le relever ? 
+-samira: Moi ! Zangazino, tu mérites une bonne leçon ! 
+
+f2r_06:
+
+-fede: Je suis venu voir comment ça allait. Anelka, comment les trouvez-vous ? 
+-anelka: Prometteurs ! Ils sont gonflés à bloc, prêts à tout donner. Pas vrai ? 
+-equipe: Ouais ! 
+-fede: Les amis, l'heure tourne... je crois qu'on a un match de qualification à disputer. 
+-tag: Diables Noirs, à nous maintenant ! 
+-fede: Bienvenue au dernier match de qualification pour le championnat du monde de foot de rue ! 
+-fede: Merci à Nicolas Anelka d'assister à cette rencontre... 
+-anelka: Pour rien au monde je n'aurais manqué ça ! 
+-fede: Aujourd'hui, la célèbre équipe des Bleus... 
+-fede: ... affronte les Diables Noirs. 
+-fede: Les deux équipes sont invitées à prendre place sur le terrain. 
+-equipe: Hein ? Quoi ? Pas possible ! 
+-tag: Victoire ? ... Ah, j'aurais du me douter que tu étais derrière tout ça ! 
+-victoire_sport: Je vous présente les fantastiques Diables Noirs. J'ai composé l'équipe moi-même. 
+-tag: Mais... Ce sont les meilleurs joueurs de foot de rue du monde !? 
+-victoire_sport: Grâce à mon père, je les ai fait venir par avion des quatre coins du globe. 
+-anelka: Ça ne me paraît pas très fair-play ! 
+-victoire_sport: Ce n'est en rien contraire au règlement... Aujourd'hui va sonner la fin du règne des Bleus ! 
+-fede: Balle aux Bleus. Attention, début du match à mon coup de sifflet. 
+-fede: Tenez-vous prêt ! 
+-anelka: Courage les bleus... vous pouvez les vaincre ! 
+
+f2r_12:
+
+-fede: Fin du temps réglementaire ! Les Bleus remportent le match ! 
+-fede: L'équipe est qualifiée pour le championnat du monde de foot de rue ! 
+-equipe: Ouaaaaaaiiiis ! 
+-jeremy: Dis donc Victoire ! Tu portes pas si bien ton nom finalement ! Mmm ? 
+-victoire_sport: Toi, ne fais pas le malin. On se reverra ! 
+-anelka: Ne vous souciez pas d'elle. Quoi qu'elle fasse, vous avez une chose qu'elle n'aura jamais... 
+-anelka: Tu as deviné de quoi je veux parler, Tag ? 
+-tag: Oui... l'esprit foot de rue ! 
+-tag: Le partage, l'amitié, le respect et la solidarité. Elle ne peut rien contre ça. 
+-fede: Bien sûr ! C'est la recette idéale pour être les meilleurs. 
+-jeremy: Oui, et les meilleurs... 
+-equipe: ... C'est nous ! 
+
+f2r_13:
+
+-fede: Fin du temps réglementaire ! Les Diables Noirs remportent le match ! 
+-fede: L’équipe est qualifiée pour le championnat du monde de foot de rue ! 
+-victoire_sport: Alors les Bleus, vous étiez où pendant le match ? On ne vous a pas vu beaucoup ! 
+-anelka: Jeune fille, ton comportement est lamentable ! 
+-gabriel: T'es qu'une tricheuse, Victoire ! Tu as tout organisé à ton avantage, comme d'habitude. 
+-victoire_sport: Regardez-moi ça. Qu'il est mignon quand il est en colère ! 
+-tag: Gab, ils ont gagné. On n'a pas à leur contester ça. 
+-anelka: Très juste, Tag. Ce ne serait pas dans l'esprit foot de rue. 
+-victoire_sport: « L'esprit foot de rue » ! Ah ah ah ! Heureusement que le ridicule ne tue pas ! 
+-samira: Pas étonnant de t'entendre dire ça. C'est un état d'esprit que tu n'auras jamais. 
+-tag: C'est bon Victoire. Félicitations à toi et à ton équipe. 
+-victoire_sport: J'aime mieux ça. 
+-fede: Ne vous découragez pas les enfants. 
+-anelka: Les meilleures équipes passent par des moments difficiles. Vous savez, moi des défaites j'en ai connu aussi ! 
+-fede: ... c'est aussi en acceptant ses échecs que l'on atteint la victoire. 
+-gabriel: Eh bien alors... ressaisissons-nous, et reprenons l'entraînement dès demain ! 
+-tag: Oui ! Les Bleus sont loin d'avoir dis leur dernier mot ! 
+
+f2r_14:
+
+-fede: Fin du temps réglementaire ! 
+-fede: Vous êtes à égalité , recommencez le match ! 
+
+f2r_22:
+
+-fede: Fin du temps réglementaire ! Les Bleus remportent le match ! 
+-fede: L’équipe est qualifiée pour le championnat du monde de foot de rue ! 
+-equipe: Ouaaaaaaiiiis ! 
+
+f2r_23:
+
+-fede: Fin du temps réglementaire ! Les Diables Noirs remportent le match ! 
+-fede: L’équipe est qualifiée pour le championnat du monde de foot de rue ! 
+
+f2r_24:
+
+-fede: Fin du temps réglementaire ! 
+-fede: Vous etes à égalité , recommencez le match ! 
