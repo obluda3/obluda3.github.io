@@ -65,11 +65,3 @@ Street Football is a video game based on the TV Show *Foot 2 Rue*. I worked a li
 
 [Croaarc](https://github.com/obluda3/Croaarc) is an archive extractor/packer that I made for **Webfoot** games. 
 I quickly made it after figuring out the structure for the archive format used in them.
-
-I plan to continue my work on these games but I don't really know when.
-
-# Tutorials 
-
-- Using a hex editor to figure out some structs
-- Adding musics to Xtreme 2013
-- Adding an emblem to Xtreme 2013
