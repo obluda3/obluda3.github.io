@@ -139,7 +139,7 @@ Some of the files in the game are stored in the regular formats used on the Wii.
 
 ### SHTX
 
-**SHTX** (short for **SH**ade **T**e**X**ture) is the main texture file formats used in the game. Each file could store a texture in one of 4 different formats:
+**SHTX** (short for **SH**ade **T**e**X**ture) is the main texture file formats used in the game. Each file could store a texture in one of 3 different formats:
 - 32bpp, raw pixel data
 - 8bpp, with a 256-color palette.
 - 4bpp, with a 16-color palette.
@@ -155,7 +155,7 @@ A file's structure is as follows:
 | 0xA | Unk A | u16 | |
 | 0xB | Unk B | u16 | |
 | 0xC | Palette | u32[256] | Doesn't appear for 32bpp images |
-| 0xC+Palette | Texture Data | u8[bpp*Width*Height] | |
+| 0xC+Palette | Texture Data | u8[bpp × Width × Height] | |
 
 ### TexCut
 
@@ -189,7 +189,7 @@ Each field has the following header:
 | --- | --- | --- | --- |
 | 0x0 | Field Name | u32 | |
 | 0x4 | Length | u32 | |
-| 0x8 | Success Values | u32[2] | Only present if the field allows keyframes. The name of the fields comes from the symbols, it's use is not known |
+| 0x8 | Success Values | u32[2] | Only present if the field allows keyframes. The name of the fields comes from the symbols, their use is not known |
 | 0x10 | Keyframe Count | u32 | Only present if the field allows keyframes. |
 | 0x14 | Keyframes | Keyframe[Keyframe Count] | Only present if the field allows keyframes. The Keyframe structure is 0x1C bytes long |
 
