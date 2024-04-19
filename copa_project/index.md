@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Inazuma Eleven GO Strikers 2013 PATCH FR - CopaTeam
 
 Ici vous trouverez le lien du patch de **traduction française d'IEGS2013**. Il a été créé par la CopaTeam composée de AS, Rosetta, Nayth et Obluda avec l'aide d'Hugo Fansub et Venezzia.

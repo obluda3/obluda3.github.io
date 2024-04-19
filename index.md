@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-
 # Home
 
-Hey ! I'm Obluda, a programmer that's mostly focused on making hacks for videogames. I'm familiar with C#, C/C++ and PowerPC Assembly (for the wii).
+Hey I'm Obluda, a computer science and math student. This is my personal page, dedicated to display all the different projects I've worked in the past.
 
-I discovered reverse engineering in 2020 and it became my main hobby! I used to focus on learning how games were made, now I also try to implement new things in them.
+I discovered reverse engineering in 2020 and it became one of my main interests! I used to focus on learning how games were made, now I also try to implement new things in them.
 
-You can follow me on [Twitter](https://www.twitter.com/obluda3), the [Fediverse](https://wetdry.world/@obluda) or message me on Discord **@Obluda#1526**. 🤓 
+You can find me on [Twitter](https://www.twitter.com/obluda3) or message me on Discord **@Obluda3**. 🤓 
  
 # Projects
 
