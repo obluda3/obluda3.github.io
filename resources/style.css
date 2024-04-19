@@ -1,0 +1,42 @@
+body {
+    max-width: 1000px;
+    font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+    color: rgb(209 213 219);
+    background-color: rgb(17 24 39);
+    padding: 10px;
+}
+
+a {
+	color: #0074D9;
+    transition: color 0.1s;
+}
+a:hover {color: #7FDBFF !important;}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 200;
+
+}
+
+.footer {
+    font-size: 0.75rem;
+    padding: 20px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th{
+    border:2px solid rgb(209 213 219);
+}
+
+td{
+    border:1px solid rgb(209 213 219);
+}
