@@ -52,7 +52,7 @@ I've made multiple tools to mod the game when I could've just made an *all-in-on
 
 ### Strikers2013-Tools
 
-[Strikers2013-Tools](https://github.com/obluda3/strikers2013-tools) is a program I initialy made for the french fan-translation project of the game. I made it in order to *import* files into the games' archives, back when available tools like [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) didn't support them. I also added support for the game's text format, and later re-implemented the game's [compression algorithm]().
+[Strikers2013-Tools](https://github.com/obluda3/strikers2013-tools) is a program I initialy made for the french fan-translation project of the game. I made it in order to *import* files into the games' archives, back when available tools like [Kuriimu2](https://github.com/FanTranslatorsInternational/Kuriimu2) didn't support them. I also added support for the game's text format, and later re-implemented the game's compression algorithm.
 
 ## Street Football
 
