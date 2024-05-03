@@ -8,7 +8,7 @@ This page was made in order to centralize all the knowledge that has been acquir
 
 You can read it in whatever order but I'd recommend starting with **Filesystem**.
 
-Special thanks to [Alpha](), [onepiecefreak]() and [Rosetta]() for their help and work on the game.
+Special thanks to [Alpha](https://www.youtube.com/@Jhawk_029), [onepiecefreak](https://github.com/onepiecefreak3) and [Rosetta](https://twitter.com/fatalblooms92) for their help and work on the game.
 
 Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-WjHwCtC_ie8IV7JgQagF9QfnqWJfbxfC_Dy8u2eQ/)
 
@@ -27,7 +27,7 @@ Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-W
 	- [Keys](#keys)
 	- [Player copies](#player-copies)
 	- [Charge Data](#charge-data)
-	- PLAYER_DEF
+	- [PLAYER_DEF](#player_def)
 	- Body models
 - Special Moves
 	- Definition
@@ -362,6 +362,78 @@ It's a table of the following structure:
 | 0x1 | Player IDs | `u32[5]` | |
 
 Fun fact: Kidou has more than 5 different versions, his case is handled separately in the game's code.
+
+## Charge Data
+
+File: 40015, 1st section
+
+This structure contains the various "gauge points" given when a player performs an action in game. Each player has a specific profile, giving different bonuses to different actions. They correspond to what the competitive community call **charge profiles**. The gauge can be filled until it reaches 200, will stay full for 5 in-game minutes (unless the player is holding the ball).
+
+The file contains an array of the following structure, one for each charge profile. The structure is `0x60` bytes long
+
+| Offset | Name |
+| --- | --- |
+| 0x0 | Idle |
+| 0x4 | Holding the ball |
+| 0x8 | Pass |
+| 0xC | Normal Shoot |
+| 0x10 | Normal Catch |
+| 0x14 | Goal |
+| 0x18 | Received goal |
+| 0x1C | Tackle |
+| 0x24 | Tackle (on an opponent) |
+| 0x28 | Tackle (on an opponent) |
+| 0x40 | Tactical Action (on an opponent) |
+| 0x44 | Tactical Action |
+| 0x48 | Tactical Action (on an opponent?) |
+| 0x4C | Through pass |
+| 0x50 | Direct shot |
+| 0x54 | Cross |
+| 0x58 | Volley |
+
+## PLAYER_DEF
+
+File: 40015, 2nd section
+
+Perhaps the most important structure in the game. It contains all of the main informations related to a player. It's basically where a player's configuration is stored.
+
+| Offset | Name | DataType | Notes |
+| --- | --- | --- | --- |
+| 0x0 | Hex ID | u32 | Player's HEX ID |
+| 0x8 | Hidden name | u32 | Index into an entry of the text file |
+| 0xC | Short Name ID | u32 | Index into an entry of the text file |
+| 0x10 | Full Name ID | u32 | Index into an entry of the text file |
+| 0x14 | Player Name | string |  |
+| 0x2c | Gender | u32 | 0 = Male 1 = Female 2 = Other |
+| 0x30 | Idle Animation | u32 | Used in caravan and minigame selection |
+| 0x38 | Description | u32 | Index into an entry of the text file |
+| 0x3c | Bodytype | u32 | 0 = Man 1 = Large 2 = Chibi 3 = Muscle 4 = Girl1 5 = Girl2 |
+| 0x40 | Height | u32 | Player height specification |
+| 0x44 | Shadow Size | u32 | |
+| 0x48 | Tactical Action | u32 | 0x14 = Feint 0x15 = Roll 0x16 = Short 0x17 = Jump 0x18 = White Sprint 0x19 = Red Sprint 0x1A = Girl |
+| 0x4C | Course Animation | u32 | | 
+| 0x50 | Team | u32 | |
+| 0x54 | Emblem | u32 | |
+| 0x58 | Team Portrait ID | u32 | Portrait index in the team list |
+| 0x5C | Position | u32 | GK = 0; DF = 0x23; MF = 0x24; FW = 0x25 |
+| 0x60 | Face Model | u32 | Player's 3D Model (in match) |
+| 0x64 | Face Model | u32 | Player's 3D Model |
+| 0x68 | Face Model | u32 | Player's 3D Model |
+| 0x6C | Body Model | u32 | Player's Body Model (reserved - replaced in game) |
+| 0x70 | Body Model | u32 | Player's Body Model (reserved - replaced in game) |
+| 0x78 | Portrait | u32 | Player's 2D Portrait |
+| 0x80 | Left Match Portrait | u32 | 2D Portrait in Match, left side |
+| 0x84 | Right Match Portrait | u32 | 2D Portrait in Match, right side |
+| 0x88 | Neck and legs skin color | u32 | xRGB |
+| 0x8C | Arms and knees color | u32 | xRGB |
+| 0xF4 | Element | u32 | 0 = Wind 1 = Wood 2 = Fire 3 = Earth 4 = Void |
+| 0xF8 | Charge profile | u32 | Player's charge profile |
+| 0x104 | Voice | u32 |  |
+| 0x108 | Original ID | u32 | ID of the "main" player for those that have multiple versions of themselves |
+| 0x110 | Price | s16 | A value above 0 enables the player, a value of -1 makes the player unlocked by default |
+| 0x112 | List position | u16 | |
+| 0x114 | List position | u32 | |
+
 
 # Miximaxes
 
