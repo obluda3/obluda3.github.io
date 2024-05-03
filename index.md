@@ -34,7 +34,7 @@ It uses [Kamek](https://github.com/Treeki/Kamek) by [Ninji](https://twitter.com/
 
 ![Screenshot of a translated menu in Strikers 2013](/resources/strikersfr.png)
 
-I was one of the contributors behind the [french translation](/copa_project) of Strikers 2013. My job was to help with some text translation and graphics assets, but mostly to make tools to help modifying the game, with the help of a few others. We started the project back in **Summer 2020** when [Rosetta](https://twitter.com/rosetta_galaxy) managed to extract the game's files, but we were later joined by [AS](https://twitter.com/sltcas) who quickly became the lead of the project, and [Nayth](https://twitter.com/637nayth). 
+I was one of the contributors behind the [french translation](/copa_project) of Strikers 2013. My job was to help with some text translation and graphics assets, but mostly to make tools to help modifying the game, with the help of a few others. We started the project back in **Summer 2020** when [Rosetta](https://twitter.com/fatalblooms92) managed to extract the game's files, but we were later joined by [AS](https://twitter.com/sltcas) who quickly became the lead of the project, and [Nayth](https://twitter.com/637nayth). 
 
 This has been my first ever completed big scale project, and we released it in **January 2023**.
 
