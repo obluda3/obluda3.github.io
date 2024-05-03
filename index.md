@@ -44,11 +44,7 @@ I've made multiple tools to mod the game when I could've just made an *all-in-on
 
 ### Strikers2013Editor
 
-[Strikers2013Editor](https://github.com/obluda3/Strikers2013Editor) is used to modify **players**, **teams** and **moves** data structures in Strikers 2013. It also includes a save editor (although it's a bit uncomplete).
-
-### Strikers2013-teambuilder
-
-[Strikers2013-teambuilder](https://github.com/obluda3/strikers2013-teambuilder) is the first program I made back in *December 2020*. It was used to generate teams using gecko codes. It was the first accessible way to add unused players to one's team.
+[Strikers2013Editor](https://github.com/obluda3/Strikers2013Editor) is used to modify **players**, **teams** and **moves** data structures in Strikers 2013. It also includes a save editor (although it's a bit uncomplete). I started to work on it in December 2020, and continued until 2023-ish.
 
 ### Strikers2013-Tools
 
@@ -58,9 +54,5 @@ I've made multiple tools to mod the game when I could've just made an *all-in-on
 
 Street Football is a video game based on the TV Show *Foot 2 Rue*. I worked a little bit on the game, for shitposting purposes...
 
-[Here](/f2r.md)'s a documentation of the game's file formats. A full dump of the game's script is available in [English](/resources/f2r_eng.txt), [French](/resources/f2r_fr.txt) or [Italian](/resources/f2r_it.txt).
+[Here](/f2r)'s some stuff I wrote about the game's files. A full dump of the game's script is available in [English](/resources/f2r_eng.txt), [French](/resources/f2r_fr.txt) or [Italian](/resources/f2r_it.txt).
 
-## Croaarc
-
-[Croaarc](https://github.com/obluda3/Croaarc) is an archive extractor/packer that I made for **Webfoot** games. 
-I quickly made it after figuring out the structure for the archive format used in them.

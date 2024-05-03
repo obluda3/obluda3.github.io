@@ -27,7 +27,10 @@ a:hover {color: #7FDBFF !important;}
     padding: 20px;
     text-align: center;
 }
-
+img{
+    width:100%;
+    height:auto;
+}
 table{
     border-collapse: collapse;
     border-spacing: 0;
