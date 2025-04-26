@@ -45,6 +45,7 @@ Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-W
 - Unlocks
 - Savedata
 - RNG
+- Text files
 - [Code](#code)
 	- PWORK
 	- Move Power
