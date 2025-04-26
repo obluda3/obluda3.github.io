@@ -3,9 +3,9 @@ layout: default
 ---
 # Obluda
 
-I'm Obluda (he/him), a 19 year old 🇫🇷🇰🇲 CS and math student, programmer, modder. And if you want to learn more about what I do, you've stepped in the right place.
+I'm Obluda (he/him), a 19 year old 🇫🇷🇰🇲 CS and math student, programmer & modder. And if you want to learn more about what I do, you've stepped in the right place.
 
-I discovered reverse engineering in 2020 and it still remains one of the most fun things I've been taught. I've spent countless hours trying to learn how different features were implemented in games I enjoyed, and trying to implement my own ideas. 
+I discovered **reverse engineering** in 2020 and it still remains one of the most fun things I've been taught. I've spent countless hours trying to learn how different features were implemented in games I enjoyed, and trying to implement my own ideas. 
 
 Later in life, I developed an interest for theoretical computer science and its notion of **computation**. I hope to learn more about that in the following years.
 
