@@ -361,4 +361,118 @@ It's a table of the following structure:
 
 Fun fact: Kidou has more than 5 different versions, his case is handled separately in the game's code.
 
+## Charge Data
 
+File: 40015, 1st section
+
+This file is used to store the various gauge increments that happen when you perform specific actions. The gauge is one of the most important pieces of gameplay in that game, it's refilled automatically for all players, but can be refilled through specific action such as passes, tackling etc.
+
+Each player has a specific *gauge profile*, and each gauge profile gives different bonuses. Here are the different gauge profiles with their community names.
+
+| Index | Name |
+| --- | --- |
+| | Boy GK Medium |
+| | Boy GK Fast |
+| | Boy GK Slow |
+| | Boy DF Medium |
+| | Boy DF Fast |
+| | Boy DF Slow |
+| | Boy MF Medium |
+| | Boy MF Fast |
+| | Boy MF Slow |
+| | Boy FW Medium |
+| | Boy FW Fast |
+| | Boy FW Slow |
+| | Girl GK Medium (UNUSED) |
+| | Girl GK Fast |
+| | Girl GK Slow (UNUSED) |
+| | Girl DF Medium |
+| | Girl DF Fast |
+| | Girl DF Slow (UNUSED) |
+| | Girl MF Medium |
+| | Girl MF Fast |
+| | Girl MF Slow (UNUSED) |
+| | Girl FW Medium |
+| | Girl FW Fast |
+| | Girl FW Slow (UNUSED) |
+| | Keshin User GK Medium (UNUSED) |
+| | Keshin User GK Fast (UNUSED) |
+| | Keshin User GK Slow |
+| | Keshin User DF Medium |
+| | Keshin User DF Fast (UNUSED) |
+| | Keshin User DF Slow |
+| | Keshin User MF Medium |
+| | Keshin User MF Fast (UNUSED) |
+| | Keshin User MF Slow |
+| | Keshin User FW Medium |
+| | Keshin User FW Fast (UNUSED) |
+| | Keshin User FW Slow |
+| | Mixi-Max (UNUSED) |
+
+This file just contains an array of the following structure:
+
+| Offset | Name |
+| --- | --- |
+| 0x0 | Idle |
+| 0x4 | Holding the ball |
+| 0x8 | Pass |
+| 0xC | Normal Shoot |
+| 0x10 | Normal Catch |
+| 0x14 | Goal |
+| 0x18 | Received goal |
+| 0x1C | Tackle |
+| 0x24 | Tackle (on an opponent) |
+| 0x28 | Tackle (on an opponent) |
+| 0x40 | Tactical Action (on an opponent) |
+| 0x44 | Tactical Action |
+| 0x48 | Tactical Action (on an opponent?) |
+| 0x4C | Through pass |
+| 0x50 | Direct shot |
+| 0x54 | Cross |
+| 0x58 | Volley |
+
+## PLAYER_DEF
+
+File: 40015, 2nd section
+
+Arguably the second most important structure. It's 0x148 bytes long.
+
+| Offset | Name | DataType | Notes |
+| --- | --- | --- | --- |
+| 0x0 | Hex ID | u32 | Player's HEX ID |
+| 0x8 | Hidden name | u32 | Index into an entry of the text file |
+| 0xC | Short Name ID | u32 | Index into an entry of the text file |
+| 0x10 | Full Name ID | u32 | Index into an entry of the text file |
+| 0x14 | Player Name | string |  |
+| 0x2c | Gender | u32 | 0 = Male 1 = Female 2 = Other |
+| 0x30 | Idle Animation | u32 | Used in caravan and minigame selection |
+| 0x38 | Description | u32 | Index into an entry of the text file |
+| 0x3c | Bodytype | u32 | 0 = Man 1 = Large 2 = Chibi 3 = Muscle 4 = Girl1 5 = Girl2 |
+| 0x40 | Height | u32 | Player height specification |
+| 0x44 | Shadow Size | u32 | |
+| 0x48 | Tactical Action | u32 | 0x14 = Feint 0x15 = Roll 0x16 = Short 0x17 = Jump 0x18 = White Sprint 0x19 = Red Sprint 0x1A = Girl |
+| 0x4C | Course Animation | u32 | 1 for males to have Kappa's animation | 
+| 0x50 | Team | u32 | Player's team |
+| 0x54 | Emblem | u32 | Player's emblem |
+| 0x58 | Team Portrait ID | u32 | Portrait in the team list |
+| 0x5C | Position | u32 | GK = 0 DF = 0x23 MF = 0x24 FW = 0x25 |
+| 0x60 | Face Model | u32 | Player's 3D Model (in match) |
+| 0x64 | Face Model | u32 | Player's 3D Model (index u32o grp.bin minus 800) |
+| 0x68 | Face Model | u32 | Player's 3D Model (index u32o grp.bin minus 800) |
+| 0x6C | Body Model | u32 | Player's Body Model (reserved - replaced in game) |
+| 0x70 | Body Model | u32 | Player's Body Model (reserved - replaced in game) |
+| 0x78 | Portrait | u32 | Player's 2D Portrait |
+| 0x80 | Left Match Portrait | u32 | 2D Portrait in Match, left side |
+| 0x84 | Right Match Portrait | u32 | 2D Portrait in Match, right side |
+| 0x88 | Neck and legs skin color | u32 | xRGB |
+| 0x8C | Arms and knees color | u32 | xRGB |
+| 0xF4 | Element | u32 | 0 = Wind 1 = Wood 2 = Fire 3 = Earth 4 = Void |
+| 0xF8 | Charge profile | u32 | Player's charge profile (see above) |
+| 0x104 | Voice | u32 |  |
+| 0x110 | Price | s16 | A value above 0 enables the player, a value of -1 makes the player unlocked by default |
+| 0x112 | List position | u16 | |
+| 0x114 | List position | u32 | |
+
+In order to make a player appear in the list, give them a valid Team/Emblem, and a valid list position. If two players have the same list position and team, only the first one (based on their ID) will appear.
+
+The emblem also controls the player's uniform. Some fields are replaced at runtime, such as the bodymodel. The voice profile only controls 
