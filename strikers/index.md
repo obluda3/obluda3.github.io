@@ -12,7 +12,8 @@ Special thanks to [Alpha](https://www.youtube.com/@Jhawk_029), [onepiecefreak](h
 
 Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-WjHwCtC_ie8IV7JgQagF9QfnqWJfbxfC_Dy8u2eQ/)
 
-- [Introduction](#introduction)
+- [Filesystem](#filesystem)
+	- Xtreme's filesystem
 - [Editing the game's archives](#archive-editing)
 - [Common file formats](#common-file-formats)
 	- [BLN](#bln)
@@ -45,6 +46,7 @@ Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-W
 - Unlocks
 - Savedata
 - RNG
+- Font files
 - Text files
 - [Code](#code)
 	- PWORK
@@ -57,6 +59,9 @@ Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-W
 	- stNameWindow
 	- CSprStudio
 	- cPopup
+	- Rendering text
+	- VWF
+	- Rendering textures
 
 # Filesystem
 
