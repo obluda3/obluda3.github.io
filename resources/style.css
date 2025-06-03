@@ -1,0 +1,46 @@
+body {
+    max-width: 80%;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+    color: rgb(209 213 219);
+    background-color: rgb(17 24 39);
+    padding: 10px;
+}
+
+a {
+	color: #0074D9;
+    transition: color 0.1s;
+}
+a:hover {color: #7FDBFF !important;}
+
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 200;
+
+}
+
+.footer {
+    font-size: 0.75rem;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width:60%;
+    height:auto;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th{
+    border:2px solid rgb(209 213 219);
+}
+
+td{
+    border:1px solid rgb(209 213 219);
+}

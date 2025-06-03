@@ -8,7 +8,7 @@ This page was made in order to centralize all the knowledge that has been acquir
 
 You can read it in whatever order but I'd recommend starting with **Filesystem**.
 
-Special thanks to [Alpha](), [onepiecefreak]() and [Rosetta]() for their help and work on the game.
+Special thanks to [Alpha](https://www.youtube.com/@Jhawk_029), [onepiecefreak](https://github.com/onepiecefreak3) and [Rosetta](https://twitter.com/fatalblooms92) for their help and work on the game.
 
 Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-WjHwCtC_ie8IV7JgQagF9QfnqWJfbxfC_Dy8u2eQ/)
 
@@ -27,7 +27,7 @@ Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-W
 	- [Keys](#keys)
 	- [Player copies](#player-copies)
 	- [Charge Data](#charge-data)
-	- PLAYER_DEF
+	- [PLAYER_DEF](#player_def)
 	- Body models
 - Special Moves
 	- Definition
@@ -35,7 +35,7 @@ Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-W
 	- File Info
 	- Animations
 - 3D Models
-- Miximaxes
+- [Miximaxes](#miximaxes)
 - Teams
 	- Emblems
 	- Uniforms
@@ -44,18 +44,21 @@ Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-W
 - Armed
 - Unlocks
 - Savedata
-- Code/Structures
+- RNG
+- Text files
+- [Code](#code)
 	- PWORK
 	- Move Power
 	- Loading files
 	- UtilitySato
 	- Button Checks
-	- cTASK
+	- [cTASK](#ctask)
+	- Settings menu
 	- stNameWindow
 	- CSprStudio
 	- cPopup
 
-# Introduction
+# Filesystem
 
 At the root of the game, you'd run across various type of files.
 
@@ -247,7 +250,7 @@ Here are the different fields:
 
 ## Data Cache
 
-Again, its name comes from guessing through the name of the `DCLoad` function used to load them. It's used in *dat.bin* to serialize various data structures, in an effecient (similar to how [Flatbuffers]() work). The idea is that any parameter that is an offset within the file is replaced, when the file is loaded in memory, with a pointer to the actual address it targeted. This is done by simply adding the address of the beginning of the file in memory to the offset.
+Again, its name comes from guessing through the name of the `DCLoad` function used to load them. It's used in *dat.bin* to serialize various data structures, in an effecient (similar to how [Flatbuffers](https://flatbuffers.dev/) work). The idea is that any parameter that is an offset within the file is replaced, when the file is loaded in memory, with a pointer to the actual address it targeted. This is done by simply adding the address of the beginning of the file in memory to the offset.
 
 A file could contain multiple *sections*, each one being an array for a specific structure. Some sections can contain text, others contain more complicated structures.
 
@@ -361,6 +364,179 @@ It's a table of the following structure:
 
 Fun fact: Kidou has more than 5 different versions, his case is handled separately in the game's code.
 
+## Charge Data
+
+File: 40015, 1st section
+
+This file is used to store the various gauge increments that happen when you perform specific actions. The gauge is one of the most important pieces of gameplay in that game, it's refilled automatically for all players, but can be refilled through specific action such as passes, tackling etc. They correspond to what the competitive community call **charge profiles**. The gauge can be filled until it reaches 200, will stay full for 5 in-game minutes (unless the player is holding the ball).
+
+Each player has a specific *gauge profile*, and each gauge profile gives different bonuses. Here are the different gauge profiles with their community names.
+
+| Index | Name |
+| --- | --- |
+| | Boy GK Medium |
+| | Boy GK Fast |
+| | Boy GK Slow |
+| | Boy DF Medium |
+| | Boy DF Fast |
+| | Boy DF Slow |
+| | Boy MF Medium |
+| | Boy MF Fast |
+| | Boy MF Slow |
+| | Boy FW Medium |
+| | Boy FW Fast |
+| | Boy FW Slow |
+| | Girl GK Medium (UNUSED) |
+| | Girl GK Fast |
+| | Girl GK Slow (UNUSED) |
+| | Girl DF Medium |
+| | Girl DF Fast |
+| | Girl DF Slow (UNUSED) |
+| | Girl MF Medium |
+| | Girl MF Fast |
+| | Girl MF Slow (UNUSED) |
+| | Girl FW Medium |
+| | Girl FW Fast |
+| | Girl FW Slow (UNUSED) |
+| | Keshin User GK Medium (UNUSED) |
+| | Keshin User GK Fast (UNUSED) |
+| | Keshin User GK Slow |
+| | Keshin User DF Medium |
+| | Keshin User DF Fast (UNUSED) |
+| | Keshin User DF Slow |
+| | Keshin User MF Medium |
+| | Keshin User MF Fast (UNUSED) |
+| | Keshin User MF Slow |
+| | Keshin User FW Medium |
+| | Keshin User FW Fast (UNUSED) |
+| | Keshin User FW Slow |
+| | Mixi-Max (UNUSED) |
+
+This file just contains an array of the following structure:
+
+| Offset | Name |
+| --- | --- |
+| 0x0 | Idle |
+| 0x4 | Holding the ball |
+| 0x8 | Pass |
+| 0xC | Normal Shoot |
+| 0x10 | Normal Catch |
+| 0x14 | Goal |
+| 0x18 | Received goal |
+| 0x1C | Tackle |
+| 0x24 | Tackle (on an opponent) |
+| 0x28 | Tackle (on an opponent) |
+| 0x40 | Tactical Action (on an opponent) |
+| 0x44 | Tactical Action |
+| 0x48 | Tactical Action (on an opponent?) |
+| 0x4C | Through pass |
+| 0x50 | Direct shot |
+| 0x54 | Cross |
+| 0x58 | Volley |
+
+## PLAYER_DEF
+
+File: 40015, 2nd section
+
+Arguably the second most important structure. It's 0x148 bytes long.
+
+| Offset | Name | DataType | Notes |
+| --- | --- | --- | --- |
+| 0x0 | Hex ID | u32 | Player's HEX ID |
+| 0x8 | Hidden name | u32 | Index into an entry of the text file |
+| 0xC | Short Name ID | u32 | Index into an entry of the text file |
+| 0x10 | Full Name ID | u32 | Index into an entry of the text file |
+| 0x14 | Player Name | string |  |
+| 0x2c | Gender | u32 | 0 = Male 1 = Female 2 = Other |
+| 0x30 | Idle Animation | u32 | Used in caravan and minigame selection |
+| 0x38 | Description | u32 | Index into an entry of the text file |
+| 0x3c | Bodytype | u32 | 0 = Man 1 = Large 2 = Chibi 3 = Muscle 4 = Girl1 5 = Girl2 |
+| 0x40 | Height | u32 | Player height specification |
+| 0x44 | Shadow Size | u32 | |
+| 0x48 | Tactical Action | u32 | 0x14 = Feint 0x15 = Roll 0x16 = Short 0x17 = Jump 0x18 = White Sprint 0x19 = Red Sprint 0x1A = Girl |
+| 0x4C | Course Animation | u32 | | 
+| 0x50 | Team | u32 | |
+| 0x54 | Emblem | u32 | |
+| 0x58 | Team Portrait ID | u32 | Portrait index in the team list |
+| 0x5C | Position | u32 | GK = 0; DF = 0x23; MF = 0x24; FW = 0x25 |
+| 0x60 | Face Model | u32 | Player's 3D Model (in match) |
+| 0x64 | Face Model | u32 | Player's 3D Model |
+| 0x68 | Face Model | u32 | Player's 3D Model |
+| 0x6C | Body Model | u32 | Player's Body Model (reserved - replaced in game) |
+| 0x70 | Body Model | u32 | Player's Body Model (reserved - replaced in game) |
+| 0x78 | Portrait | u32 | Player's 2D Portrait |
+| 0x80 | Left Match Portrait | u32 | 2D Portrait in Match, left side |
+| 0x84 | Right Match Portrait | u32 | 2D Portrait in Match, right side |
+| 0x88 | Neck and legs skin color | u32 | xRGB |
+| 0x8C | Arms and knees color | u32 | xRGB |
+| 0xF4 | Element | u32 | 0 = Wind 1 = Wood 2 = Fire 3 = Earth 4 = Void |
+| 0xF8 | Charge profile | u32 | Player's charge profile |
+| 0x104 | Voice | u32 |  |
+| 0x108 | Original ID | u32 | ID of the "main" player for those that have multiple versions of themselves |
+| 0x110 | Price | s16 | A value above 0 enables the player, a value of -1 makes the player unlocked by default |
+| 0x112 | List position | u16 | |
+| 0x114 | List position | u32 | |
+
+
+# Miximaxes
+
+One of the main additional mechanics in Strikers 2013. Funnily enough, it's only handled in the game's code, not in any files. It can only be performed if the player has a miximax unlocked in its stats.
+
+Once a miximax is performed, multiple things happen to the player doing it: their face model, face portrait, moveset, idle animation, size and tactical action change to match those of their aura. Note that the body model isn't affected, meaning that in vanilla Strikers, a miximax cannot turn a normal-sized player to a large size player.
+
+In miximax state, the game switch the regular gauge to one that cannot be refiled, but where you can use any move at any time. This causes one major bug, commonly called the **mixibug**. The details are not known as to why it happens, but basically it comes from an error with the way the game calculates the gauge reduction after performing a move. 
+
+Usually, once the miximax gauge gets to 0, the game releases the player's miximax. Because of the contest mechanic, there are cases where a miximaxed player would try to perform a move, but they would be stopped by their opponent. In those cases, the game can expect the miximaxed player's gauge to reach 0, even if it won't. It would then try to release the miximax while it should still be present, which causes the mixibug.
+
+As to how miximaxes are stored, it's fairly simple. The actual structure is stored at address `0x804c8b90`. It looks like this:
+
+| Offset | Name | DataType | Notes |
+| --- | --- | --- | --- |
+| 0x0 | Source Player | u16 | |
+| 0x2 | Slot | u16 | Used for players which have multiple miximaxes |
+| 0x4 | Aura | u16 | |
+| 0x6 | Move 1 | u16 | This is the move that's performed when you transform |
+| 0x8 | Move 2 | u16 | |
+| 0xA | Move 3 | u16 | |
+
+# Code
+
+In the next section, you'll find a description of some parts of the game's code and data structures that I have reversed.
+
+## cTask
+
+The `cTask` is a class that's used everywhere in the game. It's used to manage menus, and various parts of the game that needs to be updated following a **task** system. The **cTask** contains a stack of tasks, and would always perform the task that's located at the top of its stack. 
+
+A task can have different behavior depending on if it's on its first call, a random call or its last call. A task is almost always associated with a parent class, so that when it's called, the task can have access to the parent structure. It can also be called with an integer argument, usually to describe some kind of state.
+
+Later in the documentation you'll find some examples of parts of the game that use this class.
+
+The following methods are available:
+
+| Name | Description |
+| --- | --- | 
+| Update | Executes the task that is at the top of the stack with 2 as its argument. If it has never been executed, it first executes it with 0 as the argument. Updates the call count, and elapsed time. |
+| Push | Push the task that's passed as an argument to the top of the stack |
+| Pop | Terminate the task that's at the top of the stack, and remove it from the stack |
+
+
+Task structure:
+
+| Offset | Name | DataType | Notes |
+| --- | --- | --- | --- |
+| 0x0 | Function | u32 | Pointer to the function |
+| 0x4 | Parent class | u32 | Pointer to the parent class mentioned earlier |
+| 0x8 | unk | u32 | |
+
+cTask structure:
+
+ Offset | Name | DataType | Notes |
+| --- | --- | --- | --- |
+| 0x0 | Tasks | Task* | Pointer to an array of tasks. |
+| 0x4 | Elapsed time | u32 | not sure about this one |
+| 0x8 | Call count | u32 | Counts how many times the current function has been executed. |
+| 0x4 | Remaining tasks | u32 | Counts how many tasks are free |
+| 0x8 | Task Count | u32 | |
 ## Charge Data
 
 File: 40015, 1st section
