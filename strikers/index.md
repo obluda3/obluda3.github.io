@@ -13,7 +13,7 @@ Special thanks to [Alpha](https://www.youtube.com/@Jhawk_029), [onepiecefreak](h
 Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-WjHwCtC_ie8IV7JgQagF9QfnqWJfbxfC_Dy8u2eQ/)
 
 - [Filesystem](#filesystem)
-	- [Xtreme's filesystem](#xtreme-fs)
+	- [Xtreme's filesystem](#xtreme-filesystem)
 	- [Editing the game's archives](#archive-editing)
 - [Common file formats](#common-file-formats)
 	- [BLN](#bln)
