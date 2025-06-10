@@ -13,8 +13,8 @@ Special thanks to [Alpha](https://www.youtube.com/@Jhawk_029), [onepiecefreak](h
 Here's a useful document: [Filemap](https://docs.google.com/spreadsheets/d/1Ze-WjHwCtC_ie8IV7JgQagF9QfnqWJfbxfC_Dy8u2eQ/)
 
 - [Filesystem](#filesystem)
-	- Xtreme's filesystem
-- [Editing the game's archives](#archive-editing)
+	- [Xtreme's filesystem](#xtreme-fs)
+	- [Editing the game's archives](#archive-editing)
 - [Common file formats](#common-file-formats)
 	- [BLN](#bln)
 	- [Bin Archives](#bin-archives)
@@ -94,7 +94,7 @@ Each file stores a reference to its corresponding file in the *bin* archives thr
 The files within the game's archives don't have any name. They are usually described through their *index* within the archives. The following notation will be used in this document: `10 000 × Archive Index + File Index`. For example `40023` would be the file with index `23` within `dat.bin`. This is also how the game accesses them.
 
 
-# Archive Editing
+## Archive Editing
 
 This has actually nothing to do in a documentation, but I will explain it regardless.
 
@@ -107,6 +107,20 @@ This led to the creation of Strikers2013-Tools for the purposes of the various f
 Its usage is pretty simple, in the **Archive** section, select the archive you wish to extract and press the extract button.
 
 If you wish to import files, make a folder with all of the files that you want to import into your desired archive. Name them accordingly, with their file index. If your files are decompressed, they need to have the `.dec` extension. 
+
+## Xtreme Filesystem
+
+The need for a way to distribute mods without having to provide an entire mcb+dat/ui/grp/scn/scn_sh build of multiple gigabytes has led me to develop a new way to load files. 
+
+In Xtreme, it's possible to replace files without having to actually modify the archive files. The `Modified` folder in the game's root acts as a replacement for the filesystem of some files. It contains various subfolders : `grp`, `scn`, `ui`, `scn` and `scn_sh`. The files inside of those folders are expected to be numbered from 0 to 10000. 
+
+The idea is that when the game tries to load a file, Xtreme checks if it's already present inside of one of those subfolders. If it is, it loads the modified version instead.
+
+For example, if one wishes to replace the file "81.bin of dat.bin" (40081), they would have to copy the modified (and already compressed version of it) to `Modified\dat\81.bin`. 
+
+All of that is handled inside of `fileloader.cpp` in Xtreme's source code. The source file is pretty long but the actual code is short (and quite easy to understand I would think). The only problem is that we need to patch a lot of different functions inside of the game's code, which are all handled differently. 
+
+There's also a way to *redirect* files. It's a special feature we invented. It means that when the game tries to load a specific file (let's say 32567), we can force it to load another one instead (let's say 40356). This will be done regardless of if one of them is modified inside of the Modified folder.
 
 # Common file formats
 
