@@ -17,7 +17,7 @@ Here's a list of different projects I've worked on.
 
 ## Inazuma Eleven GO Strikers 2013 Documentation
 
-Over the past two years I've spent a lot of time **reverse engineering** Strikers 2013's code, data structures and file formats. 
+Over the past years I've spent a lot of time **reverse engineering** Strikers 2013's code, data structures and file formats. 
 [Here](/strikers) you'll find a **documentation** of the things that I (and other people) have learnt so far.
 
 ## Inazuma Eleven GO Strikers 2013 Xtreme
